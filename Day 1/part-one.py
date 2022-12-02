@@ -2,6 +2,8 @@ import sys
 
 
 def find_most_calories(data):
+    if data[-1] != '':
+        data.append('')
     current_count = 0
     current_most = 0
     for line in data:

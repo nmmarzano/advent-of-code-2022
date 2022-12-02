@@ -3,6 +3,8 @@ from functools import reduce
 
 
 def find_top_three_calories(data):
+    if data[-1] != '':
+        data.append('')
     current_count = 0
     current_most = [0, 0, 0]
     min_of_most = 0
