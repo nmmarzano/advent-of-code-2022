@@ -19,4 +19,5 @@ def find_marker(data):
 
 if __name__ == '__main__':
     with open(argv[1]) as file:
-        print(find_marker(file.read().strip()))
+        for line in file:
+            print(find_marker(line.strip()))
