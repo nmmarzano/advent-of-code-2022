@@ -8,7 +8,6 @@ def find_marker(data):
         # if len(set(cur_range)) == 4: ...would be prettier, but this faster!
         if cur_range[0] != cur_range[1] and cur_range[0] != cur_range[2] and cur_range[0] != cur_range[3] and cur_range[1] != cur_range[2] and cur_range[1] != cur_range[3] and cur_range[2] != cur_range[3]:
             return x
-    
 
 
 if __name__ == '__main__':
